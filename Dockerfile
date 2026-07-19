@@ -1,0 +1,2 @@
+FROM movixcorp/movix:latest
+

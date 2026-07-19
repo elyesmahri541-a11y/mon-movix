@@ -1,2 +1,1 @@
-FROM movixcorp/movix:latest
-
+FROM ghcr.io/kudoai/movix:latest

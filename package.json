@@ -2,7 +2,7 @@
   "name": "mon-movix",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "npx degit v0rt3x-7/MovixOpenSource . --force",
+    "preinstall": "curl -L https://github.com/v0rt3x-7/MovixOpenSource/archive/refs/heads/main.tar.gz | tar -xz --strip-components=1",
     "build": "npm install",
     "start": "node index.js || node server.js"
   }

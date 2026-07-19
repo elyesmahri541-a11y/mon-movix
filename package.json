@@ -1,0 +1,10 @@
+{
+  "name": "mon-movix",
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "npx degit elyesmahri541-a11y/MovixOpenSource#main . --force || npx degit https://github.com/elyesmahri541-a11y/MovixOpenSource . --force",
+    "install": "npm install",
+    "start": "npm start"
+  }
+}
+
